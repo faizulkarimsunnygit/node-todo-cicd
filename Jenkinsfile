@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'git@github.com:faizulkarimsunnygit/node-todo-cicd.git'
+        git 'https://github.com/faizulkarimsunnygit/node-todo-cicd.git'
       }
     }
 
